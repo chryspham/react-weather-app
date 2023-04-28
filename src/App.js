@@ -1,11 +1,12 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <h1>Weather App</h1>
-        <p>
+        <Weather />
+        <footer>
           This project is coded by Chrys Pham and is {""}
           <a
             href="https://marvelous-gecko-4306e4.netlify.app/"
@@ -14,7 +15,7 @@ export default function App() {
           >
             open-sourced on Github.
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );
