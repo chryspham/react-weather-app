@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <div className="clearfix">
+          <div className="clearfix d-flex">
             <img
               src={props.data.iconURL}
               alt={props.data.description}

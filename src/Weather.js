@@ -16,7 +16,7 @@ export default function Weather(props) {
       city: response.data.city,
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
-      iconURL: response.data.condition.icon_URL,
+      iconURL: response.data.condition.icon_url,
     });
   }
 
