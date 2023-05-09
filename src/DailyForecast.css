@@ -1,0 +1,12 @@
+.DailyForecast {
+  text-align: center;
+}
+
+.DailyForecast-temp-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.weather-forecast-icon {
+  max-width: 52px;
+}
