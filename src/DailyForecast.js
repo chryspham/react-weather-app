@@ -4,7 +4,7 @@ import axios from "axios";
 
 export default function DailyForecast(props) {
   function handleResponse(response) {
-    console.log(response.props);
+    console.log(response.data);
   }
 
   const apiKey = "bt87f7d7a5b40d83e6325o6a0bfef2da";
